@@ -4,6 +4,10 @@ define( 'TEMPPATH', get_bloginfo('stylesheet_directory'));
 define( 'IMAGES', TEMPPATH. "/images");
 
 
+
+
+
+
 // Register support for Wordpress navigation (Appearance > Menus)
 add_theme_support('nav-menus');
 if ( function_exists('register_nav_menus')) {
@@ -13,4 +17,15 @@ if ( function_exists('register_nav_menus')) {
 		)
 	);
 }
+
+
+
+
+
+
+// Register support for Wordpress thumbnails (featured images etc)
+add_theme_support( 'post-thumbnails' );
+
+// Use the below to add custom image sizes. Any large image will be automatically converted to the sizes below on upload.
+// add_image_size( 'small-feature', 500, 300 );
 ?>
