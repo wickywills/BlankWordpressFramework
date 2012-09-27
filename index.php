@@ -9,14 +9,6 @@
 
 	<?php endwhile; ?>
 
-	<script>
-	alert("jdksjdsk");
-
-	function hello()
-		alert("dsjdksj");
-	}
-	</script>
-
 <?php get_footer(); ?>
 
 </body>
