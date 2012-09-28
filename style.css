@@ -237,3 +237,16 @@ Author: James Wills
 
 	form { margin: 0 0 18px; }
 	input { background:none; border:0px none; }
+
+
+
+
+
+
+/*	==========================================
+	 10. Wordpress stuff
+	========================================== */
+	
+	/* Add support for floating elemets in Wordpress */
+	.alignright { float:right; }
+	.alignleft { float:left; }
