@@ -13,7 +13,7 @@
 	<title><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<link rel="stylesheet" href=""<?php bloginfo('template_directory'); ?>/css/mobile.css" media="screen and (min-width: 0) and (max-width: 479px)" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/mobile.css" media="screen and (min-width: 0) and (max-width: 479px)" />
 	
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/ie.css">
